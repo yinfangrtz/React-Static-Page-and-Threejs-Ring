@@ -1,28 +1,19 @@
-# cNRnRMC2
+## My Scrimba Practice
+## React-Static-Page-and-Threejs-Ring
+The "React Static Page and Three.js Ring" project is a basic React application that showcases a static webpage with an interactive Three.js animation. It consists of three components: App, Main, and Circle.
 
-Quick start:
-
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
-
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
-
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+App Component:
+The main entry point of the application.
+Renders the Navbar, Main, and Circle components.
+Creates the overall layout of the webpage.
+Main Component:
+Displays the main content of the webpage.
+Includes a title and a list of fun facts about React.
+Provides static information about React.
+Circle Component:
+Utilizes Three.js library to create an interactive animation.
+Renders a rotating torus shape using a PointsMaterial.
+Configures the camera, scene, and renderer required for the Three.js animation.
+Uses the useEffect hook to initialize and manage the animation loop.
 
 Happy Coding!
