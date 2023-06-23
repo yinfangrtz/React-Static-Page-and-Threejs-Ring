@@ -1,6 +1,7 @@
 ## My Scrimba Practice
 ## React-Static-Page-and-Threejs-Ring
 The "React Static Page and Three.js Ring" project is a basic React application that showcases a static webpage with an interactive Three.js animation. It consists of three components: App, Main, and Circle.
+Three.js tutorial by @DesignCourse.
 
 App Component:
 The main entry point of the application.
